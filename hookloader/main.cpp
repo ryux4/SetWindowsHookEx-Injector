@@ -12,7 +12,7 @@ int wmain(int argc, wchar_t* argv[], wchar_t* envp[]) {
 		return EXIT_FAILURE;
 	}
 
-	HWND hwnd = FindWindowW(L"UnrealWindow", NULL); //Game window classname
+	HWND hwnd = FindWindowW(L"ValorantUnrealWindow", NULL); //Game window classname
 	if (hwnd == NULL) {
 		cout << "[ FAILED ] Could not find target window." << endl;
 		system("pause");
